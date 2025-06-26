@@ -54,19 +54,6 @@ This repository documents my learning journey in **SOC 2025**, a course focused 
 
 ---
 
-## 📁 Repository Structure (if applicable)
-/project-folder
-├── index.html
-├── style.css
-└── /assets
-└── images/
-
-yaml
-Copy
-Edit
-
----
-
 ## Author
 Meer Kanani  
 SOC 2025 Student
