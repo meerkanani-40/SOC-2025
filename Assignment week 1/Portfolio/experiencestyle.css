@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("istockphoto-941338190-1024x1024.jpg");
+    background-size: cover;
+}
+
+.experience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: beige;
+    margin-bottom: 10px;
+}
+
+.experience-card {
+    height: 150px;
+    width: 800px;
+    display: flex;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(168, 168, 168);
+}
+
+.image {
+    width: 200px;
+}
+
+.experience-card img {
+    height: 150px;
+    width: 200px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#ecell {
+    background-color: white;
+}
+
+.card-title p {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(5, 75, 5);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.experience-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 1rem rgba(42, 177, 51, 0.7);
+    rotate: 0.5deg;
+    transition-duration: 1s;
+}

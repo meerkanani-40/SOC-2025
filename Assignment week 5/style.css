@@ -1,0 +1,30 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f8f8;
+}
+.navbar-custom {
+    background: linear-gradient(to right, #2563eb, #4f46e5);
+}
+.hero-section {
+    background: linear-gradient(to bottom right, #a855f7, #ec4899);
+}
+.cta-section {
+    background: linear-gradient(to right, #14b8a6, #06b6d4);
+}
+.shadow-lg-custom {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.rounded-b-xl-custom {
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+}
+.rounded-t-xl-custom {
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+.card-custom:hover {
+    transform: translateY(-8px);
+}
+.img-hover-effect:hover {
+    transform: scale(1.05);
+}
